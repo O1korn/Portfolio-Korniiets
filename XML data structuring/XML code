@@ -1,0 +1,45 @@
+<PetStore>
+ <!-- This section contains details about available pets -->
+ <pets>
+ <pet id="1" sold="true">
+ <name>King</name>
+ <breed>Monkey</breed>
+ </pet>
+<pet id="2">
+ <name>Adolf</name>
+ <breed>Dog</breed>
+ </pet>
+ <pet id="3">
+ <name>Rio</name>
+ <breed>Parrot</breed>
+ </pet>
+ <pet id="4">
+ <name>Jek</name>
+ <breed>Capybara</breed>
+ </pet>
+ </pets>
+ <!-- Food section with attributes -->
+ <Food>
+ <milk brand="FarmFresh" volume="1L"/>
+ <meat type="Chicken" weight="500g"/>
+ <grain type="Oats" weight="2kg"/>
+ </Food>
+ <!-- This section contains available pet toys -->
+ <Toys>
+ <toy>
+ <name>Ball</name>
+ <type>Rubber</type>
+ </toy>
+ <toy>
+ <name>Rope</name>
+ <type>Cotton</type>
+</toy>
+ <toy>
+ <name>Chew Bone</name>
+ <type>Plastic</type>
+ </toy>
+ </Toys>
+ <!-- Notes with CDATA section -->
+ <notes><![CDATA[This pet store offers a wide range of exotic pets & supplies. Special discounts
+are available every weekend!]]></notes>
+</PetStore>
