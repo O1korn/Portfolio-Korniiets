@@ -1,0 +1,45 @@
+{
+ "technique": [
+{ 
+"type": "laptop",
+ "producer": "Scer",
+ "system": "Windows",
+ "number": 50,
+ "models": [
+ {
+ "name": "Scer X500",
+ "year": 2023,
+ "specs": {
+ "processor": "Intel i7",
+ "ram": "16GB",
+ "storage": "512GB SSD"
+ },
+ "warranty": true
+ },
+ {
+ "name": "Scer Y300",
+ "year": 2022,
+ "specs": {
+ "processor": "Intel i5",
+ "ram": "8GB",
+ "storage": "256GB SSD"
+ },
+ "warranty": false
+ }
+ ]
+ },
+ {
+ "type": "phone",
+ "producer": "Samsung",
+"system": "Android",
+ "number": 15,
+ "models": [
+ {
+ "name": "Galaxy S21",
+ "year": 2021,
+ "features": ["5G", "Wireless Charging", "Water Resistant"]
+ }
+ ]
+ }
+ ]
+} 
